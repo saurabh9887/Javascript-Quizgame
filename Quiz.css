@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(62, 62, 102);
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    padding-top: 25px;
+    position: relative;
+}
+
+.game{
+    /* display: none; */
+}
+
+.content{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.question{
+    margin-bottom: 40px;
+}
+
+.answer{
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.submit{
+    background-color: rebeccapurple;
+    color: white;
+    width: 100%;
+    position: absolute;
+    border: none;
+    bottom: 0;
+    height: 40px;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: rgb(120, 78, 161);
+}
+
+.result{
+    display: none;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.congo{
+    margin-bottom: 20px;
+}
+
+.correct{
+    margin-bottom: 10px;
+    color: green;
+}
+
+.wrong{
+    margin-bottom: 10px;
+    color: red;
+}
+
+.score{
+    margin-bottom: 15px;
+}
+
+.play{
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.play:hover{
+    background-color: rgb(120, 78, 161);
+}
